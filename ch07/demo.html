@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>问题答疑</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    /*类 class 选择器: 不同类型的标记使用同一样式*/
+    .text-color {
+      color: skyblue;
+    }
+
+    /*标签选择器: 同一类型的标记(元素|节点)都将 文本是红色 */
+    h1 {
+      color: red;
+    }
+
+    /*id 选择器: 指定标记的 id 使用此样式*/
+    #qh1 {
+      color: yellowgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="qh1" class="text-color" >问题答疑</h1>
+  <b>Q1.class & id 选择器什么时候用?</b>
+  <p>
+    A1:
+  </p>
+  <!-- 样式作用的顺序: 外部样式 > 内部样式 > 行内样式 (越来越严格)-->
+  <h1 style="color:black;" class="text-color" >afasdfasd</h1>
+  <p class="text-color">asdfsadfassaf</p>
+
+  <!--
+  作业:
+  新闻详情页
+
+  github.com 申请账号,去申请的电子邮箱激活
+  -->
+</body>
+</html>
